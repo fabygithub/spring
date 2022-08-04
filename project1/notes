@@ -1,0 +1,54 @@
+Creating spring application in Eclipse IDE
+Go to File menu - New - project - Java Project. 
+Write the project name e.g. firstspring - 
+Finish. Now the java project is created.
+
+There are mainly three jar files required to run this application
+
+org.springframework.core-3.0.1.RELEASE-A
+com.springsource.org.apache.commons.logging-1.1.1
+org.springframework.beans-3.0.1.RELEASE-A
+
+To run this example, you need to load only spring core jar files.
+
+Right click on your project - Build Path - Add external archives 
+- select all the required jar files - finish
+
+Error: no se ha podido inicializar la clase principal com.javatpoint.Test
+Causado por: java.lang.NoClassDefFoundError: org/springframework/core/io/Resource
+
+Error: no se ha podido inicializar la clase principal com.javatpoint.Test
+Causado por: java.lang.NoClassDefFoundError: org/springframework/beans/factory/BeanFactory
+
+no esta importado el jar
+Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+
+projecto funcionando
+
+ago. 04, 2022 4:59:29 P. M. org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFORMACIÓN: Loading XML bean definitions from class path resource [applicationContext.xml]
+Hello: Vimal Jaiswal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
