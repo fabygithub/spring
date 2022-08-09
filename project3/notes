@@ -9,8 +9,6 @@ git clone https://github.com/spring-projects/spring-petclinic.git
 3 Inside IntelliJ IDEA
 In the main menu, choose File -> Open and select the Petclinic pom.xml. Click on the Open button.
 
-Visit http://localhost:8080 in your browser.
-
 Reduce the indexing time and CPU load with pre-built JDK and Maven library shared indexes
 
 PetClinicApplication main class and choosing Run 'PetClinicApplication'
@@ -22,6 +20,13 @@ build
 debug
 
 right click on the spring-petclinic project then Maven -> Generates sources and Update Folders
+
+Run 'PetClinicApplication'.
+
+
+Visit http://localhost:8080 in your browser.
+
+compilo sin run
 
 
 
