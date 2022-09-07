@@ -1,0 +1,44 @@
+fuente
+
+https://www.youtube.com/watch?v=-wddkBQZuPs&ab_channel=CodeJava
+java development kit jdk
+eclipse enterprise
+apache tomcat
+mysql cominity server
+
+spring framework 5 
+spring mvc + spring jdbc
+java servlet
+java server pages jsp
+
+jsp standart tag library jstl
+mysql connector java jdbc
+
+steps
+create mysql database
+create project
+specify dependencies(maven)
+code model class
+code dao classes + unit test
+configure spring mvc dispatcher servlet
+configure spring mvc
+code spring controller
+code JSPs
+
+mysql command line client
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
