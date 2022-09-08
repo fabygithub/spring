@@ -26,3 +26,86 @@ code spring controller
 code JSPs
 
 mysql command line client
+
+create database contactdb;
+show databases;
+connect contactdb;
+
+create table contact (
+  contact_id int(11) not null auto_increment,
+   name varchar(45) not null,
+   email varchar(45) not null,
+   address varchar(100) not null,
+   phone  varchar(15) not null,
+  primary key (contact_id)
+  );
+  
+  You have an error in your SQL syntax; 
+  check the manual that corresponds to your MySQL server version for the right syntax to use near 
+  
+  hay que quitarles las comillas simples
+  
+show tables;
+
+desc contact;
+
+select * from contact;
+
+eclipse new project
+new dinamic web project
+
+convert to maven
+
+<properties>
+  <spring.version>5.1.9.RELEASE</spring.version>
+</properties>
+
+dependencies:
+
+groupid: org.springframework
+artifact id : spring-context
+version : ${spring.version}
+
+ok
+
+copy dependency
+
+<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-webmvc</artifactId>
+  		<version>${spring.version}</version>
+</dependency>
+
+<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-orgm</artifactId>
+  		<version>${spring.version}</version>
+</dependency>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
