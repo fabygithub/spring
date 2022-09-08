@@ -14,7 +14,8 @@ java server pages jsp
 jsp standart tag library jstl
 mysql connector java jdbc
 
-steps
+steps : 
+
 create mysql database
 create project
 specify dependencies(maven)
@@ -24,6 +25,7 @@ configure spring mvc dispatcher servlet
 configure spring mvc
 code spring controller
 code JSPs
+Test the application
 
 mysql command line client
 
@@ -77,11 +79,84 @@ copy dependency
 </dependency>
 
 <dependency>
-  		<groupId>org.springframework</groupId>
-  		<artifactId>spring-orgm</artifactId>
-  		<version>${spring.version}</version>
-</dependency>
-
+  		<groupId>javax.servlet.jsp</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>4.0.1</version>
+  	</dependency>
+  	
+    Missing artifact javax.servlet.jsp:javax.servlet.jsp-api:jar:4.0.1
+    
+    dependencies
+    add dependencies
+    
+    mysql 
+    mysql-connector-java
+    5.1.46
+    
+    se agregan puros archivos jar
+    
+    java resources 
+    
+    src
+    new package
+    
+    ver el diagrama de clases
+    
+    interface ContactDAO
+    save(Contact) int
+    update(Contact) int
+    get(Integer) Contact
+    delete(Integer) int
+    list() List<Contact>
+    
+    ContactDAOImpl
+    -jdbcTemplate: JdbcTemplate
+    
+    -save()
+    -update()
+    -get()
+    -delet()
+    -list()
+    
+    ContactDAOTest
+    
+    dao : ContactDAO
+    -testSave()
+    -testUpdate()
+    -listGet()
+    -testDelete()
+    -testList()
+    
+    MainController
+    -contactDAO : ContactDAO
+    
+    -listContact()
+    -newContact()
+    -saveContact()
+    -editContact()
+    -deleteContact()
+    
+    WebAppInitializer
+    
+    -onStartup()
+    
+    SpringMvcConfig
+    
+   -getViewResolver()
+   -getDataSource()
+   -getContactDAO()
+   
+   
+   
+   
+   
+    
+    
+    
+    
+    
+    
+    
 
 
 
