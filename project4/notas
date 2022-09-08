@@ -147,8 +147,24 @@ copy dependency
    -getContactDAO()
    
    
+   new package
+   .net.codejava.contact.model
+   new class : Contact
    
+   public class Contact {
+  private Integer id;
+  private String name;
+  private String email;
+  private String address;
+  private String phone;
    
+}
+
+generate constructor using fields
+
+30 min
+
+
    
     
     
