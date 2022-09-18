@@ -20,6 +20,16 @@ finish
 
 new spring starter project
 
+properties
+jre edit
+
+application.properties
+
+create database sms;
+
+10
+
+
 
 
 
