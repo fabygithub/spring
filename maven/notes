@@ -6,5 +6,9 @@ The type HelloEvent.GreetingMessageChanged must implement the inherited abstract
 must implement the inherited abstract method HelloEvent.getName()
 method getname java
 
+basic project
+maven-archetype-quickstart
 
+web project
+maven-archetype-webapp
 
