@@ -5,11 +5,26 @@ mo free
 create
 
 https://cloud.mongodb.com/
+https://www.oracle.com/java/technologies/downloads/
+https://www.jetbrains.com/idea/download/#section=windows
+
 JDK 20
 JDK 17
 cmd
 javac --version
 javac 18.0.1.1
+java --version
+Java(TM) SE Runtime Environment (build 18.0.1.1+2-6)
+
+mongo atlas create project
+database deployments
+create
+select shared
+create cluster
+
+
+
+
 
 
 
