@@ -55,6 +55,72 @@ cluster name : cluster 0
 10
 
 create cluster
+advanced configuration
+
+Add entries to your IP Access List
+
+IP Address
+0.0.0.0/0
+
+Description
+everywhere
+
+//cluster created
+cluster0
+connect
+
+select operating system
+windows 64 bit 7+
+
+download compass 1.37.0
+
+//dowload and install mongodb compass
+//start de software
+
+mongodb://localhost:27017
+
+copy srv to compass
+//replace password
+<password>
+
+MovieApi
+green
+
+create a database
+movie-api-db
+
+https://github.com/fhsinchy/movieist
+
+raw
+https://raw.githubusercontent.com/fhsinchy/movieist/master/_data/movies.json
+
+ctrl+s
+
+//mongo 
+
+add data
+select file
+
+stop on errors
+
+20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
