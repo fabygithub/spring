@@ -108,6 +108,137 @@ stop on errors
 https://cloud.mongodb.com/v2/6478c17357c24b5ff0be6be8#/clusters
 
 
+Saved connections
+connect
+
+spring initializr
+https://start.spring.io/
+
+maven
+spring boot : 3.0.1
+group : dev.fab1
+artifact : movies
+name : movies
+description : A simple APIs related to movies
+package name : dev.fab1.movies
+packaging : jar
+java : 17
+
+dependencies
+add ctrl+b
+
+lombok
+spring web
+spring data mongo
+spring boot devtols
+
+generate
+extract zip file
+//open in your favorite ide
+projects
+open file or project
+open project
+trust project
+select existing maven project
+finish
+//project structure
+running the project
+play button
+
+//add spring boot to eclipse
+help
+eclipse marketplace
+
+run movieapplication.java
+or 
+run springbootapp
+
+OpenJDK Platform binary 
+//permitir acceso
+
+//Web server failed to start. Port 8080 was already in use.
+//mongo compass ocuped port8080
+
+<!--
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+	-->	
+  
+  maven
+  reload project
+  or
+  update project
+  
+  //si termino con exito aparece esto
+  Started MoviesApplication in 3.833 seconds (process running for 4.523)
+  
+  localhost:8080
+  
+  //debe aparecer esto por mientras
+  
+  Whitelabel Error Page
+This application has no explicit mapping for /error, so you are seeing this as a fallback.
+
+Wed Jun 07 15:51:13 CLT 2023
+There was an unexpected error (type=Not Found, status=404).
+No message available
+
+//import restcontroller
+@RestController
+@GetMapping
+
+//sino aparece la opcion escribirla
+import org.springframework.web.bind.annotation.GetMapping;
+//tambien se puede usar RequestMapping
+
+@GetMapping("/")
+	public String apiRoot() {
+		return "hello word";
+	}
+  
+
+//error
+//This application has no explicit mapping for /error, so you are seeing this as a fallback.
+
+//puedes cambiar la ruta por ejemplo en el localhost
+@GetMapping("/root")
+
+resources
+application.properties
+
+spring.data.mongodb.database=
+spring.data.mongodb.url=mongodb+srv://fabiancornejomella90:<password>@cluster0.x0drp6c.mongodb.net/
+
+//sin el slash final
+//delete comments in pom.xml
+//mongodb compass
+
+resources 
+new file
+
+MONGO_DATABASE=movies-api-db
+MONGO_USER=fabiancornejomella90
+MONGO_PASSWORD=xxxxxxxxx
+MONGO_CLUSTER=xxxxxxxxxx
+
+
+40
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
