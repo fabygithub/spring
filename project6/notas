@@ -257,6 +257,21 @@ version : 2.5.4
 
 45
 
+spring.data.mongodb.uri=
+//uri
+//no url
+
+spring.data.mongodb.database=movies-api-db
+//cambiar a 
+spring.data.mongodb.database=${env.MONGO_DATABASE}
+//reaplace username with
+${env.MONGO_USER}:${env.MONGO_PASSWORD}@${env.MONGO_CLUSTER}
+
+make movie class
+
+50
+
+
 
 
 
