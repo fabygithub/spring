@@ -226,6 +226,50 @@ MONGO_CLUSTER=xxxxxxxxxx
 
 40
 
+env.example
+
+https://stackoverflow.com/questions/98610/how-can-i-get-eclipse-to-show-files
+http://exerd.com:8081/help/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-27.htm
+
+¿Qué es Gitignore, y cómo agregarlo a tu repositorio?
+.gitignore not visible in eclipse
+package explorer
+filters
+Uncheck *.resources
+ok
+
+
+
+view menu
+//se refiere a una lista
+
+eclipse env file plugin
+maven dependencies
+spring dotenv
+
+https://mvnrepository.com/artifact/me.paulschwarz/spring-dotenv/2.3.0
+https://mvnrepository.com/artifact/me.paulschwarz/spring-dotenv
+
+packete
+group id : me.paulschwarz 
+artifact id: spring-dotenv
+version : 2.5.4
+
+45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
