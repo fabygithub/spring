@@ -15,7 +15,7 @@ Package name : com.projectos.projecto1
 
 Packaging : war
 java : 17
-
+/////////////////////////////////////////////////////////////////////////////////////////
 file
 import
 existing maven
@@ -48,6 +48,144 @@ add jsp
   <scope>provided</scope>
 </dependency>
 		
+////////////////////////////////////////////////////////////////////////////////////////////
+maven 
+update project
+refresh
+
+extend main class
+
+extends SpringBootServletInitializer {
+
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(Projecto1Application.class);
+	}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+package com.projectos.projecto1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+@SpringBootApplication
+public class Projecto1Application extends SpringBootServletInitializer {
+
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(Projecto1Application.class);
+	} 
+
+	public static void main(String[] args) {
+		SpringApplication.run(Projecto1Application.class, args);
+	}
+
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+delete springinitializr.java
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+application.properties
+
+spring.mvc.view.prefix=/WEB/INF/views/
+spring.mvc.view.sufix=.jsp
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+CREAR CARPETA 
+WEB APP
+  WEB-INF
+     VIEWS
+        INDEX.JSP
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+INDEX.JSP
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <center>Welcome to project</center>
+</body>
+</html>
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+new package
+com.projectos.projecto1
+ com.projectos.projecto1.controller
+  HomeController.java
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+HomeController.java
+
+package com.projectos.projecto1.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+
+@Controller
+public class HomeController {
+	
+	@GetMapping(value = {"/", "/home"})
+	public String showHomePage() { 
+		return "index"; // jsp name page
+	}
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+check jdk version
+projecto
+properties
+build path
+jre
+libraries
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+error The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build Path
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
