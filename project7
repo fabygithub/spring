@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=oyBpIHOA6l4
+spring initializr
+
+project : Maven
+language : Java
+Spring Boot : 3.1.3
+dependencies : Spring Web, Spring Boot DevTools
+
+Project Metadata
+Group : com.projectos
+Artifact : projecto1
+Name : projecto1
+Description : Demo project for Spring Boot
+Package name : com.projectos.projecto1
+
+Packaging : war
+java : 17
+
+
